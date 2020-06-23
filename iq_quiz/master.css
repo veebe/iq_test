@@ -1,0 +1,269 @@
+body {
+  font-family: arial;
+  min-height:100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.header {
+  box-shadow: -1px -13px 20px 9px #26334e;
+  padding: 55px;
+  margin: 0;
+  background-color: #55F9E1;
+}
+
+.nadpis1 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+  word-spacing: 14px;
+  padding: 35px;
+  margin-top: 35px;
+  text-align: center;
+  font-size: 58px;
+  color: #136F62;
+  margin-bottom: -35px;
+  background-color: #F3F3F3;
+}
+
+.podnadpis1 {
+  font-family: 'Jost', sans-serif;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 0;
+    font-size: 27px;
+    color: #136F62;
+    background-color:rgba(224, 225, 208, 0.6)  ;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.nadpis2 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #136F62;
+}
+
+.popis {
+  border: 2px solid #67F5C7;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #9BFDD9;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0F4E5C;
+  margin: 70px auto 80px auto;
+  width: 60%;
+}
+
+.popis_2 {
+  padding: 50px;
+  border-radius: 3px;
+  background-color: #F3F3F3;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0F4E5C;
+  margin: 80px auto 80px auto;
+  width: 60%;
+}
+
+.popis_3 {
+  padding: 50px;
+  border-radius: 3px;
+  background-color: #F0EFEA;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0F4E5C;
+  margin: 80px auto 80px auto;
+  width: 60%;
+}
+
+.spustit_test {
+  border-style: none;
+  border-radius: 20px;
+  width: 300px;
+  height: 130px;
+  font-size: 30px;
+  background-color: #72C8D7;
+  transition-timing-function: cubic-bezier(0.53, 0.21, 0.26, 0.79);
+  transition: 500ms;
+}
+
+.spustit_test:hover {
+  width: 320px;
+  background-color: #72D795;
+}
+
+.button_text {
+    color: #fff;
+}
+
+.active {
+  color: #2D927A;
+}
+header li {
+  display: inline;
+  float: right;
+}
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: -10px 100px auto auto;
+}
+header ul li a {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  transition: 500ms;
+}
+header ul li a:hover {
+  color: #136F62;
+}
+
+.list {
+  margin: auto;
+  font-size: 20px;
+    width: 60%;
+}
+.list ul{
+  list-style: none;
+}
+.list li{
+  line-height: 1.5;
+}
+table {
+  margin: auto;
+}
+table, th, td {
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  background-color: #E6E3DB;
+}
+
+#progress_bar {
+  border-radius: 15px;
+  margin: 40px auto 40px auto;
+    width: 20%;
+    background-color: #E4E2DD;
+    overflow: hidden;
+}
+#progress{
+  width: 1%;
+  height: 30px;
+  background-color: #27DF66;
+}
+
+.dalej {
+  width: 140px;
+  height: 55px;
+  background-color: #74C2FD;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.cilso_otazky {
+  font-size: 20px;
+  color: #165F46;
+}
+.otazka_odpovede {
+  border: 1px solid black;
+  width: 50%;
+  height: 280px;
+  position: relative;
+  margin: auto;
+}
+
+.obrazok_otazky {
+  margin-top: 40px;
+  float: left;
+  position: relative;
+  width: 250px;
+  height: auto;
+}
+.obrazok_odpoved {
+  position: relative;
+  margin: auto;
+  width: 150px;
+  height: auto;
+}
+
+.background_div_1 {
+  z-index: -2;
+  background-color: #F8F6EC;
+  position: absolute;
+  width: 320px;
+  height: 140px;
+  margin: -50px auto auto 400px;
+}
+
+.background_div_2 {
+  z-index: -1;
+  background-color: rgba(247, 219, 235,0.5);
+  position: absolute;
+  margin: -100px auto auto 500px;
+  width: 300px;
+  height: 165px;
+}
+
+.background_div_3 {
+  z-index: -1;
+  background-color: rgba(193, 243, 225,0.6);
+  position: absolute;
+  margin: -50px auto auto 620px;
+  width: 600px;
+  height: 100px;
+}
+
+.background_div_4 {
+  z-index: -1;
+  background-color: rgba(193, 206, 243,0.4);
+  position: absolute;
+  margin: -130px auto auto 1000px;
+  width: 120px;
+  height: 150px;
+}
+
+.background_div_5 {
+  z-index: -1;
+  background-color: rgba(205, 242, 248 ,0.4);
+  position: absolute;
+  margin: -130px auto auto 100px;
+  width: 200px;
+  height: 170px;
+}
+
+.footer {
+  box-shadow: 0px 6px 17px 0px #26334e;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 100px;
+  padding: 15px 0 15px 0;
+  background-color: #55F9E1;
+}
+
+.footer_2 {
+  box-shadow: 0px 6px 17px 0px #26334e;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 100px;
+  padding: 15px 0 15px 0;
+  background-color: #55F9E1;
+}
